@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+</head>
+<title>
+  pr2
+</title>
+<style>
+#searchbar {
+ position: relative;
+ top: 50px;
+ left: 100px;
+ height: 30px;
+ width: 50px;
+}
+#searchbar img {
+  position: absolute;
+  top: 20px;
+  left:980px;
+}
+#searchbar input
+{
+padding: 20px 20px 20px 20px;
+font-size: 30px;
+width: 1000px;
+height: 30px;
+}
+#logo {
+font-size: 80px;
+padding: 30px;
+}
+.logosearch
+  {display:grid;
+   grid-template-columns: 0.5fr 1fr;
+}
+</style>
+<body>
+<div class="logosearch">
+<div id="logo">
+Logo<a href="index.html"></a></div>
+<div id="searchbar">
+<input type="text" placeholder="Search">
+<img id="magnifier" src="magnifier.png" width="35px" height="auto"/></div></div>
+<center>
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/I0kVNMHo6fQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen;></iframe>
+</center>
+<center>
+<div id="disqus_thread"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://web1-2.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</center>
+</body>
+</html>
